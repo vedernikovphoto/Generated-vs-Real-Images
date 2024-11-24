@@ -47,8 +47,8 @@ The project utilizes one synthetic dataset and three real-world datasets for tra
    - Refer to the associated publication for more details: [ArXiv](https://arxiv.org/abs/2211.05237).
    - Examples:
     <div style="display: flex; gap: 10px;">
-    <img src="report_images/ailivesim_1.png" alt="SimuShips Sample 1" width="300">
-    <img src="report_images/ailivesim_2.png" alt="SimuShips Sample 2" width="300">
+    <img src="report_images/ailivesim_1.png" alt="SimuShips Sample 1" width="400">
+    <img src="report_images/ailivesim_2.png" alt="SimuShips Sample 2" width="400">
     </div>
 
 <div style="margin-bottom: 30px;"></div>
@@ -59,8 +59,8 @@ The project utilizes one synthetic dataset and three real-world datasets for tra
    - Refer to the associated paper: [MDPI Remote Sensing](https://www.mdpi.com/2072-4292/13/5/988).
    - Examples:
     <div style="display: flex; gap: 10px;">
-    <img src="report_images/aboships_1.png" alt="ABOships Sample 1" width="300">
-    <img src="report_images/aboships_2.png" alt="ABOships Sample 2" width="300">
+    <img src="report_images/aboships_1.png" alt="ABOships Sample 1" width="400">
+    <img src="report_images/aboships_2.png" alt="ABOships Sample 2" width="400">
     </div>   
 
 <div style="margin-bottom: 30px;"></div>
@@ -76,24 +76,24 @@ The project utilizes one synthetic dataset and three real-world datasets for tra
 
     **Visible On-Shore**
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/Singapore_On_Shore_1.jpg" alt="Singapore Maritime Visible On-Shore Sample 1" width="300">
-        <img src="report_images/Singapore_On_Shore_2.jpg" alt="Singapore Maritime Visible On-Shore Sample 2" width="300">
+        <img src="report_images/Singapore_On_Shore_1.jpg" alt="Singapore Maritime Visible On-Shore Sample 1" width="400">
+        <img src="report_images/Singapore_On_Shore_2.jpg" alt="Singapore Maritime Visible On-Shore Sample 2" width="400">
     </div>
 
     <div style="margin-bottom: 15px;"></div>
 
     **Visible On-Board**
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/Singapore_On_Board_1.jpg" alt="Singapore Maritime Visible On-Board Sample 1" width="300">
-        <img src="report_images/Singapore_On_Board_2.jpg" alt="Singapore Maritime Visible On-Board Sample 2" width="300">
+        <img src="report_images/Singapore_On_Board_1.jpg" alt="Singapore Maritime Visible On-Board Sample 1" width="400">
+        <img src="report_images/Singapore_On_Board_2.jpg" alt="Singapore Maritime Visible On-Board Sample 2" width="400">
     </div>
 
     <div style="margin-bottom: 15px;"></div>
 
     **Near-Infrared On-Shore**
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/Singapore_NIR_1.jpg" alt="Singapore Maritime Visible Near-Infrared On-Shore Sample 1" width="300">
-        <img src="report_images/Singapore_NIR_2.jpg" alt="Singapore Maritime Visible Near-Infrared On-Shore Sample 2" width="300">
+        <img src="report_images/Singapore_NIR_1.jpg" alt="Singapore Maritime Visible Near-Infrared On-Shore Sample 1" width="400">
+        <img src="report_images/Singapore_NIR_2.jpg" alt="Singapore Maritime Visible Near-Infrared On-Shore Sample 2" width="400">
     </div>
 
 
@@ -225,8 +225,8 @@ To enhance generalization and reduce overfitting, augmentation techniques from t
    - **Random Rotate 90 & Transpose:** Enhance robustness to varying perspectives.
    - **Shift-Scale-Rotate:** Applied with controlled limits for translations, scaling, and rotations (examples of augmented images are shown).
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/augmented_images/Shift-Scale-Rotate/310-ailivesim_aug_2.jpg" width="300">
-        <img src="report_images/augmented_images/Shift-Scale-Rotate/Singapore_On_Shore_1_aug_1.jpg" width="300">
+        <img src="report_images/augmented_images/Shift-Scale-Rotate/310-ailivesim_aug_2.jpg" width="400">
+        <img src="report_images/augmented_images/Shift-Scale-Rotate/Singapore_On_Shore_1_aug_1.jpg" width="400">
     </div>
 
 <div style="margin-bottom: 15px;"></div>
@@ -235,8 +235,8 @@ To enhance generalization and reduce overfitting, augmentation techniques from t
    - **Hue-Saturation-Value Adjustment:** Variations in hue, saturation, and brightness to simulate different lighting conditions.
    - **Random Brightness & Contrast Adjustment:** Introduced diversity in exposure and contrast (examples of before/after augmentation images are shown).
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/input_images/ailivesim_2.png" width="300">
-        <img src="report_images/augmented_images/Random_Brightness_&_Contrast_Adjustment/ailivesim_2_aug_2.jpg" width="300">
+        <img src="report_images/input_images/ailivesim_2.png" width="400">
+        <img src="report_images/augmented_images/Random_Brightness_&_Contrast_Adjustment/ailivesim_2_aug_2.jpg" width="400">
     </div>
 
 <div style="margin-bottom: 15px;"></div>
@@ -245,8 +245,8 @@ To enhance generalization and reduce overfitting, augmentation techniques from t
    - **Gaussian Noise:** Introduced pixel-level noise to mimic sensor inaccuracies.
    - **Gaussian Blur & Motion Blur:** Added to simulate motion artifacts and focus imperfections (examples of before/after augmentation images are shown).
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/input_images/aboships_2.png" width="300">
-        <img src="report_images/augmented_images/Motion_Blur/aboships_2_aug_1.jpg" width="300">
+        <img src="report_images/input_images/aboships_2.png" width="400">
+        <img src="report_images/augmented_images/Motion_Blur/aboships_2_aug_1.jpg" width="400">
     </div>
 
 <div style="margin-bottom: 15px;"></div>
@@ -255,8 +255,8 @@ To enhance generalization and reduce overfitting, augmentation techniques from t
    - **Grid Distortion:** Warped grid patterns to simulate optical aberrations.
    - **Elastic Transform:** Simulated local distortions, such as water ripple effects (examples of before/after augmentation images are shown).
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/input_images/161-ailivesim.png" width="300">
-        <img src="report_images/augmented_images/Elastic_Transform/161-ailivesim_aug_2.jpg" width="300">
+        <img src="report_images/input_images/161-ailivesim.png" width="400">
+        <img src="report_images/augmented_images/Elastic_Transform/161-ailivesim_aug_2.jpg" width="400">
     </div>
 
 <div style="margin-bottom: 15px;"></div>
@@ -264,8 +264,8 @@ To enhance generalization and reduce overfitting, augmentation techniques from t
 5. **Spatial Dropout:**
    - **Coarse Dropout:** Randomly masked image regions to train the model to capture broader spatial features instead of focusing on local patches (examples of augmented images are shown).
     <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-        <img src="report_images/augmented_images/Coarse_Dropout/aboships_2_aug_1.jpg" width="300">
-        <img src="report_images/augmented_images/Coarse_Dropout/201807021246_028_aug_2.jpg" width="300">
+        <img src="report_images/augmented_images/Coarse_Dropout/aboships_2_aug_1.jpg" width="400">
+        <img src="report_images/augmented_images/Coarse_Dropout/201807021246_028_aug_2.jpg" width="400">
     </div>
 
 6. **Gamma Correction:**
@@ -355,9 +355,9 @@ The entire training process was reproducible, with seeds (`seed=42` customized i
 ### 5.1 Loss Metrics Analysis
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <img src="report_images/plots/train_total_loss.png" width="300">
-    <img src="report_images/plots/train_bce_with_logits_loss.png" width="300">
-    <img src="report_images/plots/train_l1_loss.png" width="300">
+    <img src="report_images/plots/train_total_loss.png" width="350">
+    <img src="report_images/plots/train_bce_with_logits_loss.png" width="350">
+    <img src="report_images/plots/train_l1_loss.png" width="350">
 </div>
 
 
@@ -386,13 +386,13 @@ The entire training process was reproducible, with seeds (`seed=42` customized i
 ### 5.2 Validation Metrics Analysis
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <img src="report_images/plots/val_f1.png" width="300">
-    <img src="report_images/plots/val_accuracy.png" width="300">
+    <img src="report_images/plots/val_f1.png" width="400">
+    <img src="report_images/plots/val_accuracy.png" width="400">
 </div>
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <img src="report_images/plots/val_precision.png" width="300">
-    <img src="report_images/plots/val_recall.png" width="300">
+    <img src="report_images/plots/val_precision.png" width="400">
+    <img src="report_images/plots/val_recall.png" width="400">
 </div>
 
 #### **1. F1 Score (`val_f1`)**
@@ -435,13 +435,13 @@ The combined analysis of these metrics indicates:
 ### 5.3 Training Metrics Analysis
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <img src="report_images/plots/train_accuracy.png" width="300">
-    <img src="report_images/plots/train_f1.png" width="300">
+    <img src="report_images/plots/train_accuracy.png" width="400">
+    <img src="report_images/plots/train_f1.png" width="400">
 </div>
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
-    <img src="report_images/plots/train_precision.png" width="300">
-    <img src="report_images/plots/train_recall.png" width="300">
+    <img src="report_images/plots/train_precision.png" width="400">
+    <img src="report_images/plots/train_recall.png" width="400">
 </div>
 
 #### **1. Accuracy (`train_accuracy`)**
