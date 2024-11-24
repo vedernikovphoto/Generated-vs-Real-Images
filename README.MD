@@ -101,13 +101,6 @@ For a detailed explanation of the project, including methodology, preprocessing 
 ```
 ├── config                        
 │   └── config.yaml                 # Configuration files for the training and inference process.             
-├── data
-│   ├── generated                   # Generated SimuShips dataset.
-│   ├── real                        # Real ABOships dataset after preprocessing.
-│   ├── real2                       # Real Singapore Maritime Dataset (Visible On-Shore) after preprocessing.
-│   ├── real3                       # Real Singapore Maritime Dataset (Visible On-Board) after preprocessing.  
-│   └── real4                       # Real Singapore Maritime Dataset (Near-Infrared On-Shore) after preprocessing.
-├── experiments                     # Training checkpoints.
 ├── inference_images                # Input images used during inference.
 ├── model_weights                   # Stores the best model checkpoint for inference and evaluation.
 ├── report_images                   # Images for the project report.
@@ -134,7 +127,6 @@ For a detailed explanation of the project, including methodology, preprocessing 
 │   ├── setup.cfg                   # Configuration file for the linter.
 │   └── train.py                    # Main script for training the model.
 ├── .gitignore                      # Specifies files and directories to ignore in version control.
-├── venv                            # Virtual environment folder (if created).
 ├── Makefile                        # Commands and automation for common tasks.
 ├── predictions.csv                 # Inference results.
 ├── README.MD                       # Project documentation.
