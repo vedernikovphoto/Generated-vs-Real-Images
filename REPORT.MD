@@ -609,15 +609,15 @@ The classifier's performance on the test set indicates perfect classification, w
 
 1. **SimuShips Dataset**  
    - [Zenodo Repository](https://zenodo.org/records/7003924)  
-   - Associated Publication ["SimuShips -- A High Resolution Simulation Dataset for Ship Detection with Precise Annotations"](https://arxiv.org/abs/2211.05237)
+   - Raza, M., et al. ["SimuShips -- A High Resolution Simulation Dataset for Ship Detection with Precise Annotations"](https://arxiv.org/abs/2211.05237)
 
 2. **ABOships Dataset**  
    - [Zenodo Repository](https://zenodo.org/records/4736931)  
-   - Associated Publication: ["ABOships: A Real-World Maritime Dataset for Object Detection and Classification"](https://www.mdpi.com/2072-4292/13/5/988)
+   - Iancu, B., et al. ["ABOships: A Real-World Maritime Dataset for Object Detection and Classification"](https://www.mdpi.com/2072-4292/13/5/988)
 
 3. **Singapore Maritime Dataset**  
    - [Dataset Repository](https://sites.google.com/site/dilipprasad/home/singapore-maritime-dataset)  
-   - Associated Publication: ["Video Processing from Electro-optical Sensors for Object Detection and Tracking in Maritime Environment: A Survey"](https://arxiv.org/abs/1611.05842) (*ArXiv*)
+   - Prasad, D. K., et al. ["Video Processing from Electro-optical Sensors for Object Detection and Tracking in Maritime Environment: A Survey"](https://arxiv.org/abs/1611.05842)
 
 4. **PyTorch Lightning Documentation**  
    - [Official Website](https://www.pytorchlightning.ai)
@@ -625,7 +625,7 @@ The classifier's performance on the test set indicates perfect classification, w
 5. **MobileNetV3 Architecture**  
    - [GitHub Repository](https://github.com/huggingface/pytorch-image-models)  
    - [Model Code](https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/mobilenetv3.py)     
-   - [Corresponding Publication](https://arxiv.org/abs/1905.02244)
+   - Howard, A., et al. ["Searching for MobileNetV3"](https://arxiv.org/abs/1905.02244)
 
 6. **Albumentations Library**  
    - [Official Documentation](https://albumentations.ai)
