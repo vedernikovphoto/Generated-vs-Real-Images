@@ -52,7 +52,7 @@ To download and prepare the dataset:
     make download_generated_data
     ```
 
-The datasets will be automatically downloaded, preprocessed, and organized in the `data` directory in the project root. Refer to the [Project Report](REPORT.md) for additional details on the preprocessing steps.
+The datasets will be automatically downloaded, preprocessed, and organized in the `data` directory in the project root. Refer to the [Project Report](REPORT.MD) for additional details on the preprocessing steps.
 
 
 ## Training the Model
@@ -94,7 +94,7 @@ flake8 .
 
 ## Report
 
-For a detailed explanation of the project, including methodology, preprocessing steps, and evaluation metrics, refer to the [Project Report](REPORT.md).
+For a detailed explanation of the project, including methodology, preprocessing steps, and evaluation metrics, refer to the [Project Report](REPORT.MD).
 
 ## Repository Structure
 
@@ -137,7 +137,8 @@ For a detailed explanation of the project, including methodology, preprocessing 
 ├── venv                            # Virtual environment folder (if created).
 ├── Makefile                        # Commands and automation for common tasks.
 ├── predictions.csv                 # Inference results.
-├── README.md                       # Project documentation.
+├── README.MD                       # Project documentation.
+├── REPORT.MD                       # Detailed Report of the Project.
 ├── requirements.txt                # Dependencies for the project.
 └── setup.sh                        # Sets up the project virtual environment.
 ```
