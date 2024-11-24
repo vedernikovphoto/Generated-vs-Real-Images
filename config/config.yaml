@@ -1,0 +1,77 @@
+project_name: 'MaritimeImages'                    
+experiment_name: 'experiment1'
+num_classes: 2                      
+n_epochs: 100
+accelerator: 'gpu'
+device: 0
+seed: 42
+log_every_n_steps: 100
+patience: 20
+monitor_metric: 'val_f1'
+monitor_mode: 'max'
+
+mdl_parameters:
+  model_name: 'mobilenetv3_small_100'
+  pretrained: false
+
+optimizer: 'torch.optim.AdamW'
+optimizer_kwargs:
+  lr: 1e-5
+  weight_decay: 1e-5
+
+scheduler: 'torch.optim.lr_scheduler.CosineAnnealingLR'
+scheduler_kwargs:
+  T_max: 100
+  eta_min: 1e-6
+
+losses:
+  - name: 'bce_with_logits'
+    weight: 1.0
+    loss_fn: 'torch.nn.BCEWithLogitsLoss'
+    loss_kwargs: {}
+
+regularization:
+  l1_lambda: 1e-4
+
+data_config:
+  data_path: 'data/'
+  batch_size: 6
+  n_workers: 4
+  train_size: 0.8
+  width: 224
+  height: 224
+
+gen_split:
+  train_split_limit: 7500
+  val_split_limit: 8500
+
+augmentation_params:
+  hue_shift_limit: 20
+  sat_shift_limit: 30
+  val_shift_limit: 20
+  brightness_limit: 0.2
+  contrast_limit: 0.2
+  shift_limit: 0.0625
+  scale_limit: 0.1
+  rotate_limit: 45
+  blur_limit: [3, 7]
+  elastic_alpha: 1.0
+  elastic_sigma: 50.0
+  grid_distort_num_steps: 5
+  grid_distort_limit: 0.3
+  optical_distort_limit: 0.5
+  optical_shift_limit: 0.5
+  coarse_dropout_max_holes: 8
+  coarse_dropout_max_height: 16
+  coarse_dropout_max_width: 16
+  coarse_dropout_min_holes: 1
+  coarse_dropout_min_height: 8
+  coarse_dropout_min_width: 8
+  coarse_dropout_fill_value: 0
+  gauss_noise_var_limit: [10.0, 50.0]
+  motion_blur_limit: [3, 7]
+  random_gamma_limit: [80, 120]
+
+label_encoder:
+  real: 0
+  generated: 1
